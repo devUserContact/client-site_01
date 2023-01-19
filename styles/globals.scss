@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'uncutSans';
-  src: url(../fonts/Uncut-Sans-Regular.otf);
-  font-style: normal;
+	font-family: "orkneyRegular";
+	src: url(../fonts/Orkney-Regular.otf);
+	font-style: normal;
 }
 html {
   padding: 0;
@@ -9,9 +9,10 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 body {
-  font-family: 'uncutSans';
+  font-family: 'orkneyRegular';
 }
 a {
   text-decoration: none;
