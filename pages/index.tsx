@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import TestComponent from '../components/TestComponent';
+import Title from '../components/Title';
 
 import styles from '../styles/Main.module.scss';
 
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main>
-    		<TestComponent />
+    		<Title />
 			</main>
     </div>
   );
