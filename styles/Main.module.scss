@@ -40,6 +40,16 @@ $screen-xl-min: 1200px;
 	margin: auto;
   font-size: 10rem;
 }
+.linkListContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  margin-top: 3rem;
+  justify-items: center;
+}
+.linkList {
+  font-size: 3.3rem;
+}
 .paragraphText {
 	margin: auto;
   font-size: 5rem;
