@@ -32,6 +32,24 @@ $screen-xl-min: 1200px;
 .textContainer {
 	margin: 1rem;
 }
+.titleTextSmall {
+	margin: auto;
+  font-size: 6rem;
+}
+.titleTextLarge {
+	margin: auto;
+  font-size: 10rem;
+}
+.linkListContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  margin-top: 3rem;
+  justify-items: center;
+}
+.linkList {
+  font-size: 3.3rem;
+}
 .paragraphText {
 	margin: auto;
   font-size: 5rem;
